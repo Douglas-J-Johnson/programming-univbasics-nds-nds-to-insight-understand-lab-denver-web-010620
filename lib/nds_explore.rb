@@ -6,11 +6,10 @@ require 'pp'
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   pp nds
-  puts nds
 end
 
 def print_first_directors_movie_titles
   nds = directors_database
 
-  puts nds[0]
+  puts nds[0][:movies]
 end
