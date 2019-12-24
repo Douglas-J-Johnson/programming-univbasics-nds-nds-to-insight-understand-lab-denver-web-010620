@@ -14,6 +14,6 @@ def print_first_directors_movie_titles
   puts nds[0][:movies]
   puts nds[0][:movies].length
   for i in 0...nds[0][:movies].length
-    puts nds[0][:movies][i]
+    puts nds[0][:movies][i][:title]
   end
 end
